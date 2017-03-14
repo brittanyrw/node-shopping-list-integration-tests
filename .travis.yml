@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: 
+  provider: heroku
+  api_key:
+    secure: UHnRJtuOj1jMWwlyOSN9sunpbg0w8X3evi+VnFJXOusnw2gFABUvxGYmbFvlJR536z1qMAbwmXowWOs2dFhBlVbny/k9CjKLL2v0uO138bqcceni1dbrOAxz8xXJONVUgTpl5iKodcRybMN5AV8/G9RT55MCzUSHT2qv2xKa5mjUS3ngGWVpvReHuJQYGgK0hEQXa6fGUdy0NbW1B5E0cmFHWLMSIhk6tdjCm4X7w4msEstcd0tomg6Msr6IGbnzGOv9YKN1yM/NpF3A6eA/TXRR3E0S41A7xT8qHEnY1kDoaNwLe8iy/JjqVT9ncHNDhoMclhseNO7VGXuW3oJt0eX9qiQmb2UY4VlyS/ENBMzgcTsrlU59zbyz1HuEATDlEPiPJvw8n9XblsXKI0gMS5LH57fNgOAD32ORtv4ZwdOfH//qdZICVGTt3Qy/BAj0phkaJD3MwCgQdiG1hXkS8ZqokV7OctE/anAdNkqyeDV/seWT8iAVD2r28icPmhFdGre8pjIWpjjFsGaX8WDE0EkIPar/f3fuS4ISbVkEJevS85vMAnVtn2UAYwatJO9G06vVC2rssuvtoEcMdYdzF8AJ1y9n+ylIeAFQ7R1EpvCiDHi7x9gjJX+51G8ZsTBz3pRxQyhgEvKyOkfy48+w3JRVtBgBbSKPWWrGe7ujgg8=
+  app: https://protected-sierra-45844.herokuapp.com/
+  on:
+    repo: brittanyrw/node-shopping-list-integration-tests
